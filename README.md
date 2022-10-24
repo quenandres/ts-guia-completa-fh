@@ -18,3 +18,11 @@ forceConsistentCasingInFileNames: true
 
 Lo que mas se hace en este archivo es modificar los archivos de salida, y que tan estricto es.
 Con este archivo solo debemos ejecutar el comando ```tsc``` para ejecutar la transpilación.
+
+## __*9. Modo observador - Watch mode*__
+
+```bash
+tsc --watch
+```
+
+Para mantener a typescript buscando cambios para transpilar.
