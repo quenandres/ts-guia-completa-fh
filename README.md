@@ -71,3 +71,6 @@ Tipos de datos
 const a = 10; // const a:10;
 let b = 10; // let b: number
 ```
+
+
+## _*14. Booleans - Booleanos*_
