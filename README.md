@@ -64,3 +64,10 @@ Tipos de datos
   - genericos
   - Tuplas
     - Hasta 3 o 4 pares de valores
+
+
+## _*13. Inferir tipos y modo estricto*_
+```typescript
+const a = 10; // const a:10;
+let b = 10; // let b: number
+```
