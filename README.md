@@ -74,3 +74,7 @@ let b = 10; // let b: number
 
 
 ## _*14. Booleans - Booleanos*_
+
+## _*15. Numbers - Números*_
+*NaN* Es considerado como un numero
+
