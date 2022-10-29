@@ -78,3 +78,5 @@ let b = 10; // let b: number
 ## _*15. Numbers - Números*_
 *NaN* Es considerado como un numero
 
+## _*16. Strings - Cadenas de caracteres*_
+
