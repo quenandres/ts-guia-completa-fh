@@ -80,3 +80,5 @@ let b = 10; // let b: number
 
 ## _*16. Strings - Cadenas de caracteres*_
 
+## _*17. Tipo Any*_
+Usarlo lo menos posible que se pueda
