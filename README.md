@@ -107,3 +107,5 @@ null y undefined son diferentes
 
 ## _*25. Tarea y Resolución del Ejercicio #1*_
 
+
+## _*27. Funciones básicas*_
