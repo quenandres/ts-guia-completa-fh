@@ -88,9 +88,19 @@ Usarlo lo menos posible que se pueda
 ## _*19. Tuples - Tuplas*_
 
 ## _*20. Enum - Enumeraciones*_
+```ts
+const hero: [string, number, boolean, number[]] = ['Dr strange', 100, true, [5]];
+hero[0] = 'Ironman';
+hero[1] = 50;
+hero[2] = false;
+console.log(hero);
+```
 
 ## _*21. Void - Vacío*_
 El void y el undefined son similares a diferencia de null.
 
 ## _*22. Never - Nunca*_
 Metodo para respuestas de metodos que solo resuelven errores.
+
+## _*23 Null - undefined *_
+null y undefined son diferentes
