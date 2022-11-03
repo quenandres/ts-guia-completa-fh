@@ -87,3 +87,4 @@ Usarlo lo menos posible que se pueda
 
 ## _*19. Tuples - Tuplas*_
 
+## _*20. Enum - Enumeraciones*_
