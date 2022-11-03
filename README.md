@@ -84,3 +84,6 @@ let b = 10; // let b: number
 Usarlo lo menos posible que se pueda
 
 ## _*18. Arrays - Arreglos*_
+
+## _*19. Tuples - Tuplas*_
+
