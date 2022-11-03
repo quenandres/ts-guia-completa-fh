@@ -91,3 +91,6 @@ Usarlo lo menos posible que se pueda
 
 ## _*21. Void - Vacío*_
 El void y el undefined son similares a diferencia de null.
+
+## _*22. Never - Nunca*_
+Metodo para respuestas de metodos que solo resuelven errores.
