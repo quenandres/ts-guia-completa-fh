@@ -88,3 +88,6 @@ Usarlo lo menos posible que se pueda
 ## _*19. Tuples - Tuplas*_
 
 ## _*20. Enum - Enumeraciones*_
+
+## _*21. Void - Vacío*_
+El void y el undefined son similares a diferencia de null.
