@@ -104,3 +104,6 @@ Metodo para respuestas de metodos que solo resuelven errores.
 
 ## _*23 Null - undefined *_
 null y undefined son diferentes
+
+## _*25. Tarea y Resolución del Ejercicio #1*_
+
