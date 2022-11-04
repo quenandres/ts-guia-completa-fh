@@ -109,3 +109,6 @@ null y undefined son diferentes
 
 
 ## _*27. Funciones básicas*_
+
+
+## _*28. Parametros obligatorios*_
