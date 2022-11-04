@@ -112,3 +112,17 @@ null y undefined son diferentes
 
 
 ## _*28. Parametros obligatorios*_
+
+## _*29. Parámetros opcionales de las funciones*_
+El simbolo _?_ indica que el string no es requerido.
+
+```ts
+const fullName = (firstName:string, lastName?:string): string => {
+    return firstName+" "+ (lastName || '');
+}
+
+const name = fullName('Tony', 'Stark');
+console.log({name});    
+```
+
+
