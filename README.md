@@ -126,3 +126,4 @@ console.log({name});
 ```
 
 
+## _*30. Parámetros por defecto*_
