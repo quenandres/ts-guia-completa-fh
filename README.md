@@ -130,3 +130,7 @@ console.log({name});
 
 
 ## _*31. Parametros REST*_
+
+
+## _*32. Tipo Función*_
+
