@@ -127,3 +127,6 @@ console.log({name});
 
 
 ## _*30. Parámetros por defecto*_
+
+
+## _*31. Parametros REST*_
