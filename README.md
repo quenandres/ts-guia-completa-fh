@@ -137,4 +137,9 @@ console.log({name});
 
 ## _*35. Objetos básicos*_
 
+## _*36. ¿Cómo crear objetos con tipos específicos?*_
+
+## _*37. Métodos dentro de los objetos*_
+
+
 
