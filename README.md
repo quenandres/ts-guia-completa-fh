@@ -134,3 +134,7 @@ console.log({name});
 
 ## _*32. Tipo Función*_
 
+
+## _*35. Objetos básicos*_
+
+
