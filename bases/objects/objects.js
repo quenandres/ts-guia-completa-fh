@@ -3,15 +3,13 @@
     var flash = {
         name: 'Barry Alen',
         age: 24,
-        powers: ['Super velocidad', 'Viajar en el tiempo', 'Rapida regeneración'],
+        //powers: ['Super velocidad', 'Viajar en el tiempo', 'Rapida regeneración'],
+        powers: [1, 2],
     };
-    flash = {
-        name: 'Clark kent',
-        //age: 65,
-        powers: ['Super fuerza', 'Vision calorica'],
-        getName: function () {
-            return this.name;
-        }
+    var suoerman = {
+        name: 'Clark Kent',
+        age: 52,
+        //powers: ['Super velocidad', 'Super fuerza'],
+        powers: [9, 5],
     };
-    console.log(flash.getName());
 })();
