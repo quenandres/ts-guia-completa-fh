@@ -141,5 +141,11 @@ console.log({name});
 
 ## _*37. Métodos dentro de los objetos*_
 
+## _*38. Problema con la definición en línea*_
+
+## _*39. Tipos personalizados*_
+
+
+
 
 
