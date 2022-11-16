@@ -145,6 +145,10 @@ console.log({name});
 
 ## _*39. Tipos personalizados*_
 
+## _*40. Multiples tipos permitidos*_
+
+
+
 
 
 
