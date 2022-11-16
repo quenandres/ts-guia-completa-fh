@@ -147,6 +147,8 @@ console.log({name});
 
 ## _*40. Multiples tipos permitidos*_
 
+## _*42. Tarea y Resolución del ejercicio práctico #3*_
+
 
 
 
