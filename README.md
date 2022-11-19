@@ -150,8 +150,36 @@ console.log({name});
 ## _*42. Tarea y Resolución del ejercicio práctico #3*_
 
 
+# _*Seccion 6. Depuración de errores y el archivo tsconfig.json*_
+
+¿Qué veremos en esta sección?
+La sección se enfoca en la depuración de errores y comprender el archivo de configuración de TypeScript (el tsconfig.json)
+
+Puntualmente:
+
+- Aprenderemos el ¿por qué siempre compila a JavaScript?
+- Para que nos puede servir el archivo de configuración de TypeScript
+- Realizaremos depuración de errores directamente a nuestros archivos de TypeScript
+- Removeremos todos los comentarios en nuestro archivo de producción.
+- Restringiremos al compilador que sólo vea ciertos archivos o carpetas
+- Crearemos un archivo final de salida
+- Aprenderemos a cambiar la version de JavaScript de salida
+
+Adicionalmente tendrán el conocimiento necesario para compilar automáticamente cualquier archivo que se vaya creando al momento de ser insertado a nuestro proyecto.
 
 
 
+## _*45. ¿Qué es el archivo tsconfig y para qué nos puede servir?*_
+
+## _*46. ¿Es posible la depuración del código de TypeScript?*_
+
+```json
+"sourceMap": true,
+```
+Es utilizado para que las lineas de codigo sean del midmo numero tanto en ts como en js.
+
+
+## _*47. Remover los comentarios de los archivos de JavaScript*_
+Los comentarios tambien se trasladan en la transpilación de ts a js.
 
 

@@ -6,8 +6,6 @@
     var myFunction;
     var myFunction2;
     var myFunction3;
-    //* myFunction = 10;
-    //* console.log(myFunction);
     myFunction = addNumbers;
     console.log(myFunction(5, 6));
     myFunction2 = greet;
@@ -15,3 +13,4 @@
     myFunction3 = saveTheWorld;
     console.log(myFunction3());
 })();
+//# sourceMappingURL=function-type.js.map

@@ -4,7 +4,6 @@
         name: 'Barry Alen',
         age: 24,
         powers: ['Super velocidad', 'Viajar en el tiempo', 'Rapida regeneración'],
-        //powers: [1,2],
     };
     var suoerman = {
         name: 'Clark Kent',
@@ -13,6 +12,6 @@
         getName: function () {
             return this.name;
         }
-        //powers: [9,5],
     };
 })();
+//# sourceMappingURL=type.js.map

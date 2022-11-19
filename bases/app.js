@@ -27,16 +27,17 @@ var villanos = [{
         edad: undefined,
         mutante: true
     }];
-// cree dos tipos, uno para charles y otro para apocalipsis
 var charles = {
     poder: "psiquico",
     estatura: 1.78
 };
+console.log('charles');
+console.log(charles);
 var apocalipsis = {
     lider: true,
     miembros: ["Magneto", "Tormenta", "Psylocke", "Angel"]
 };
-// Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 var mystique;
 mystique = charles;
 mystique = apocalipsis;
+//# sourceMappingURL=app.js.map

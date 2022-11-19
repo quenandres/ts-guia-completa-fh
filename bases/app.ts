@@ -63,6 +63,9 @@ const charles: psiquico = {
   estatura: 1.78
 };
 
+console.log('charles');
+console.log(charles);
+
 const apocalipsis: otro = {
   lider:true,
   miembros: ["Magneto","Tormenta","Psylocke","Angel"]
