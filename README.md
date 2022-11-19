@@ -183,3 +183,16 @@ Es utilizado para que las lineas de codigo sean del midmo numero tanto en ts com
 Los comentarios tambien se trasladan en la transpilación de ts a js.
 
 
+## _*48. Incluir y excluir carpetas y/o archivos*_
+
+La carpeta de node_modules esta excluida de manera automatica.
+```json
+,
+  "exclude": [
+    "node_modules2/*.ts"
+  ],
+  "include": [
+    "node_modules2/*.ts"
+  ]
+```
+Despues de cerrar el objeto principal de tsconfig, podemos definir un objeto con las indicaciones para incluir o exluir archivos de ts para que no sean transpilados.
