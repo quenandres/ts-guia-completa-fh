@@ -196,3 +196,10 @@ La carpeta de node_modules esta excluida de manera automatica.
   ]
 ```
 Despues de cerrar el objeto principal de tsconfig, podemos definir un objeto con las indicaciones para incluir o exluir archivos de ts para que no sean transpilados.
+
+## _*49. outFile - Archivo de salida*_
+
+```json
+"outFile": "./main.js", 
+```
+Con esto ponemos los archivos ts en un solo archivo js
