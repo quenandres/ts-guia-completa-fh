@@ -203,3 +203,30 @@ Despues de cerrar el objeto principal de tsconfig, podemos definir un objeto con
 "outFile": "./main.js", 
 ```
 Con esto ponemos los archivos ts en un solo archivo js
+
+
+# _*Seccion 7. Caracterisitcas de ES6 o Javascript2015 disponibles a través TypeScript*_
+
+JavaScript va actualizando año con año, y tenemos que estar enterados de todo lo nuevo para saber cómo le sacamos el máximo provecho!
+Esta sección esta orientada a enseñarles un par de cosas muy útiles y necesarias del ES6 (ES2015 o ECMAScript 6), que ya podemos utilizar con toda confianza en TypeScript.
+
+Aprenderemos sobre:
+
+- Diferencia entre declarar variables con VAR y con LET
+- Uso de constantes
+- Plantillas literales
+- Funciones de flecha
+- Destructuración de objetos
+- Destructuración de Arreglos
+- Nuevo ciclo, el FOR OF
+- Conocer sobre la programación orientada a objetos
+- Clases
+
+Al final, un examen práctico y teórico para afianzar los conocimientos.
+
+
+## _*51. Variables LET*_
+
+Siempre usar constantes a menos de que se este muy seguro de que van a ser cambiados los valores.
+
+
