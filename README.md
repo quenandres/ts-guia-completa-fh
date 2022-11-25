@@ -231,6 +231,11 @@ Siempre usar constantes a menos de que se este muy seguro de que van a ser cambi
 
 ## _*52. Desestructuración de Objetos*_
 
+## _*53. Desestructuración de Arreglos*_
+
+
+
+
 
 
 
