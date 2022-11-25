@@ -229,4 +229,8 @@ Al final, un examen práctico y teórico para afianzar los conocimientos.
 
 Siempre usar constantes a menos de que se este muy seguro de que van a ser cambiados los valores.
 
+## _*52. Desestructuración de Objetos*_
+
+
+
 
