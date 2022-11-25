@@ -233,9 +233,7 @@ Siempre usar constantes a menos de que se este muy seguro de que van a ser cambi
 
 ## _*53. Desestructuración de Arreglos*_
 
-
-
-
+## _*54. Ciclo - For of*_
 
 
 
