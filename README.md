@@ -235,5 +235,5 @@ Siempre usar constantes a menos de que se este muy seguro de que van a ser cambi
 
 ## _*54. Ciclo - For of*_
 
-
+## _*55. Clases en ES6*_
 
