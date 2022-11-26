@@ -265,5 +265,6 @@ Puntualmente aprenderemos sobre:
 
 ## _*58. Definición de una clase básica en TypeScript*_
 
+## _*59. Forma corta de asignar propiedades*_
 
 
