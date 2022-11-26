@@ -269,4 +269,6 @@ Puntualmente aprenderemos sobre:
 
 ## _*60. Métodos públicos y privados*_
 
+## _*61. Herencia, super y extends*_
 
+La diferencia entre private y protected, se podra acceder en metodos que se extiendan desde la clase principal.
