@@ -267,4 +267,6 @@ Puntualmente aprenderemos sobre:
 
 ## _*59. Forma corta de asignar propiedades*_
 
+## _*60. Métodos públicos y privados*_
+
 
