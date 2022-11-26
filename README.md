@@ -299,3 +299,34 @@ class Villian extends Mutante {
     }
 }
 ```
+
+## _*64. Constructores privados*_
+Usado generalmente para hacer uso del patron singleton.
+```ts
+class Apocalipsis {
+    static instance: Apocalipsis;        
+    private constructor( public name: string ) {}
+
+    static callApocalipsis(): Apocalipsis {
+        if( !Apocalipsis.instance ) {
+            Apocalipsis.instance = new Apocalipsis('Soy apocalipsis el único');
+        }
+        return Apocalipsis.instance;
+    }
+
+    changeName( newName:string ):void {
+        this.name = newName;
+    }
+}
+```
+
+# _*Seccion 9. Interfaces*_
+Esta sección esta dedicada a crear interfaces, las cuales nos permitirán crear reglas o planos de como se deben de construir clases, métodos u objetos.
+
+Puntualmente aprenderemos:
+- ¿Por qué es necesario una interfaz?
+- ¿Cómo creamos una interfaz básica?
+- Crear propiedades opcionales
+- Crear métodos
+- Asignar interfaces a las clases
+Al final, tendremos un examen práctico y teórico sobre las interfaces.

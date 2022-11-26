@@ -17,20 +17,7 @@
             return 'Mundo conquistado'
         }
     }
-
-
-
     const wolverine: Xmen = new Xmen('Wolverine', 'Logan');
     const magneto: Villian = new Villian('Magneto', 'Erik');
-
-    // console.log(wolverine.salvarMundo());
-    // console.log(magneto.conquistarMundo());
-
-    const printName = ( character: Mutante ) => {
-        console.log( character.realName );        
-    }
-
-    printName( wolverine );
-    printName( magneto );
     
 })();
