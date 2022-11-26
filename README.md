@@ -272,3 +272,7 @@ Puntualmente aprenderemos sobre:
 ## _*61. Herencia, super y extends*_
 
 La diferencia entre private y protected, se podra acceder en metodos que se extiendan desde la clase principal.
+
+## _*62. Gets y Sets*_
+El set permite crear condicionales para hacer la asignacion de valores.
+El get tambien permite crear ciertas condicionales para dejar valores por defecto. La respuesta debe ser sincrona.
