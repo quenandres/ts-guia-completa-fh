@@ -6,7 +6,6 @@
             public name: string,
             public realName: string
         ) {
-            console.log('Constructor avenger llamado !');            
         }
 
         protected getFullName() {
@@ -21,7 +20,6 @@
             public isMutant: boolean
         ) {                
             super(name, realName);
-            console.log('Constructor xmen llamado !');
         }
 
         get fullname(){
@@ -42,11 +40,6 @@
     }
 
     const wolverine = new Xmen('Wolverine', 'Logan', true);
-    
-    console.log( wolverine );
-    console.log( wolverine.fullname );    
-    wolverine.fullname = 'x3';
-    console.log( wolverine.fullname );
     
 
 })();
