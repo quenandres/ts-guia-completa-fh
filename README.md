@@ -330,3 +330,27 @@ Puntualmente aprenderemos:
 - Crear métodos
 - Asignar interfaces a las clases
 Al final, tendremos un examen práctico y teórico sobre las interfaces.
+
+
+## _*67. Interfaz básica*_
+La interfaz funciona casi para lo mismo que un tipo.
+Las interfaces se puede extender, los tipos no.
+> Interface
+```ts
+interface Hero {
+    name: string;
+    age?: number;
+    powers: string[];
+    getName?: () => string;
+}
+```
+> Type
+```ts
+type Hero = {
+    name: string;
+    age?: number;
+    powers: string[];
+    getName?: () => string;
+}
+```
+
