@@ -360,3 +360,30 @@ Las interfaces no se transpilan a js, tambien podemos crear interfaces basadas e
 
 ## _*69. Métodos en la interfaz*_
 Tambien se pueden poner metodos a la interfaz para que sean cumplidas o resueltas.
+
+## _*70. Interfaces en las clases*_
+
+Las clases pueden implementar interfaces.
+
+```ts
+interface Xmen {
+    name: string;
+    realName: string;
+    mutantPower( id: number ):string;
+}
+
+interface Human {
+    age: number
+}
+
+class Mutant implements Xmen, Human {
+    age: number;
+    name: string;
+    realName: string;
+    mutantPower(): string {
+        throw new Error("Method not implemented.");
+    }
+
+}
+```
+

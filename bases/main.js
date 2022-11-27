@@ -15,6 +15,13 @@
     };
 })();
 (() => {
+    class Mutant {
+        mutantPower() {
+            throw new Error("Method not implemented.");
+        }
+    }
+})();
+(() => {
     const client = {
         name: 'Jhonatan',
         address: {
