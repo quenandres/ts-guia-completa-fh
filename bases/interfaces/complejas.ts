@@ -3,7 +3,8 @@
     interface Client {
         name: string;
         age?: number;
-        address: Address
+        address: Address;
+        getFullAdrress( id:string ): string;
     }
 
     interface Address {
@@ -18,6 +19,9 @@
             id: 125,
             zip: 'KY2 SUD',
             city: 'Ottawa'
+        },
+        getFullAdrress( id: string ) {
+            return this.address.city;
         }
     }
 
@@ -28,7 +32,10 @@
             id: 120,
             city: 'Toronto',
             zip: 'AW 441'
-        }
+        },
+        getFullAdrress(id: string) {
+            return this.address.city;
+        },
     }
     
 })();
