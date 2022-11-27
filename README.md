@@ -354,3 +354,5 @@ type Hero = {
 }
 ```
 
+## _*68. Estructuras complejas*_
+Las interfaces no se transpilan a js, tambien podemos crear interfaces basadas en otras interfaces.
