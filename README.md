@@ -388,4 +388,5 @@ class Mutant implements Xmen, Human {
 ```
 
 ## _*71. Interfaces para las funciones*_
+## _*73. Tarea y Resolución del ejercicio práctico #5*_
 
