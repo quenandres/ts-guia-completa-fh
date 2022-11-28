@@ -390,3 +390,22 @@ class Mutant implements Xmen, Human {
 ## _*71. Interfaces para las funciones*_
 ## _*73. Tarea y Resolución del ejercicio práctico #5*_
 
+
+# _*Seccion 10. Namespaces*_
+
+TypeScript, es un lenguaje de programación web, que nos permite crear objetos que nos servirán a lo largo de nuestro programa. 
+Los namespaces, existen para ayudarnos en la re utilización de nuestras variables, constantes y métodos.
+
+Puntualmente aprenderemos sobre:
+
+- Explicación del ¿por qué son necesarios los namespaces?
+- Crear namespaces
+- Multiples namespaces en un mismo proyecto
+- Importar namespaces
+- Problemática que se puede presentar utilizando un namespace.
+
+## _*76. Creando un Namespace*_
+El namespace funciona como agrupador, utilizado en librerias y frameworks.
+
+
+## _*77. Inicio de proyecto - Módulos y Webpack*_

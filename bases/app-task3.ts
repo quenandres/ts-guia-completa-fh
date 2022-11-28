@@ -43,7 +43,7 @@ const villanos:Villians[] = [{
   mutante: true
 },{
   nombre: "James Logan",
-  edad: undefined,
+  edad: 2,
   mutante: true
 }];
 
