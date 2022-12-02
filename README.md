@@ -412,3 +412,60 @@ El namespace funciona como agrupador, utilizado en librerias y frameworks.
 
 ## _*78. Imports y Exports*_
 
+
+## _*79. Export default y exportación con alias_*
+
+```ts
+import { Hero as Superhero, Hero2 } from './classes/Hero';
+```
+__as__ Se comporta como un alias.
+
+Exportación por defecto
+```ts
+interface Power {
+    id: number;
+    desc: string;
+}
+
+const powers: Power[] = [
+    {
+        id: 1,
+        desc: 'Money'
+    },
+    {
+        id: 2,
+        desc: 'Test'
+    }
+];
+
+export default powers;
+```
+>
+```ts
+import powers from './data/powers';
+```
+
+Exportación
+```ts
+interface Power {
+    id: number;
+    desc: string;
+}
+
+export const powers: Power[] = [
+    {
+        id: 1,
+        desc: 'Money'
+    },
+    {
+        id: 2,
+        desc: 'Test'
+    }
+];
+```
+>
+```ts
+import { powers } from './data/powers';
+```
+
+
