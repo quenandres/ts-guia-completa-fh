@@ -1,10 +1,10 @@
-import { Hero } from './classes/Hero';
-import powers from './data/powers';
-// import { Hero as Superhero, Hero2 } from './classes/Hero';
+import { printObject, genericFunction } from "./generics/generics";
 
-const ironman = new Hero('Tony', 1, 52);
-//console.log(HeroClasses.PI);
+// printObject(123);
+// printObject( new Date());
+// printObject({a:1,n:2});
+// printObject([1,2,3,4,5]);
+// printObject('Cadena');
 
-
-console.log(ironman);
-console.log(ironman.power);
+console.log( genericFunction( 3.1416 ).toFixed(2) );
+console.log( genericFunction( new Date() ).toFixed(2) );
