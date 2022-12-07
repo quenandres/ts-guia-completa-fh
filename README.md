@@ -498,3 +498,20 @@ Puntualmente aprenderemos sobre:
 
 Una funcion generica recibe cualquier tipo de argumento.
 
+## _*84. Funciones Genéricas*_
+```ts
+export function genericFunction( argument:any ) {
+  return argument;
+}
+```
+
+```ts
+export function genericFunction<T>( argument:T ):T {
+  return argument;
+}
+```
+>
+
+```ts
+export const genericFunctionArrow = <T>(argument: T):T => argument;
+```
