@@ -468,4 +468,15 @@ export const powers: Power[] = [
 import { powers } from './data/powers';
 ```
 
+## _*80. Tarea - Resolver errores en TypeScript*_
+
+#### ? Con este simbolo le decimos a _ts_ que no siempre se encontrara un valor
+```ts
+  return powers.find( power => power.id === this.powerId )?.desc || 'not found';
+```
+
+#### ! Con este simbolo le aseguramos a _ts_ que siempre va a tener un valor
+```ts
+  return powers.find( power => power.id === this.powerId )!.desc || 'not found';
+```
 

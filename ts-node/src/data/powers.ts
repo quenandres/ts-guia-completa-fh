@@ -1,10 +1,10 @@
 
-interface Power {
+export interface Power {
     id: number;
     desc: string;
 }
 
-export const powers: Power[] = [
+const powers: Power[] = [
     {
         id: 1,
         desc: 'Money'
@@ -14,3 +14,6 @@ export const powers: Power[] = [
         desc: 'Test'
     }
 ];
+
+
+export default powers;
