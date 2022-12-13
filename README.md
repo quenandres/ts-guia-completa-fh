@@ -515,3 +515,6 @@ export function genericFunction<T>( argument:T ):T {
 ```ts
 export const genericFunctionArrow = <T>(argument: T):T => argument;
 ```
+
+## _*85. Ejemplo de función genérica en acción*_
+
