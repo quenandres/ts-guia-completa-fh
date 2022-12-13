@@ -518,3 +518,11 @@ export const genericFunctionArrow = <T>(argument: T):T => argument;
 
 ## _*85. Ejemplo de función genérica en acción*_
 
+
+## _*86. Agrupar exportaciones*_
+archivo index.ts en la carpeta de interfaces
+```ts
+export { Hero } from './hero';
+export { Villian } from './villian';
+```
+
