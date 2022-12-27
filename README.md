@@ -533,3 +533,27 @@ export { Villian } from './villian';
 _quicktype.io_
 
 ## _*89. Quicktype.io extensión*_
+
+# _*Seccion 12. Decoradores*_
+
+
+### ¿Qué veremos en esta sección?
+Los decoradores son una característica nueva en el TypeScript que cada vez es más utilizada por otros frameworks como Angular 2. Pero vamos a aprender a utilizar decoradores en nuestros proyectos.
+
+Puntualmente aprenderemos sobre:
+
+- ¿Qué son los decoradores?
+- ¿Para qué sirven?
+- Decoradores de clases
+- Decoradores de fabrica
+- Ejemplos prácticos
+- Decoradores anidados
+- Decoradores de métodos
+- Decoradores de propiedades
+- Decoradores de parámetros
+
+## _*92. Introducción a los decoradores*_
+Permite expandir funcionalidades de clases, metodos y propiedades.
+```ts
+@Controller('Cats')
+```
