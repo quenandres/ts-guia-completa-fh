@@ -560,4 +560,43 @@ Permite expandir funcionalidades de clases, metodos y propiedades.
 
 ## _*93. Decoradores de clases*_
 Se ejecuta en el momento de transpilación del codigo.
+```ts
+function printToConsole( constructor: Function ) {
+    console.log(constructor);    
+}
+
+@printToConsole
+export class Pokemon {
+    public publicApi: string = 'https://pokeapi.co/';
+    constructor(
+        public name: string
+    ) {}
+}
+```
+De esta manera vemos todo el codigo de la clase impresa en consola.
+
+## 94. _*Decoradores de fabrica - Factory decorators*_
+```ts
+function printToConsole( constructor: Function ) {
+    console.log(constructor);    
+}
+
+const printToConsoleConditional = ( print: boolean = false ):Function => {
+    if ( print ){
+        return printToConsole;
+    } else {
+        return () => {}
+    }
+}
+
+@printToConsoleConditional( false )
+export class Pokemon {
+    public publicApi: string = 'https://pokeapi.co/';
+    constructor(
+        public name: string
+    ) {}
+}
+```
+
+
 
