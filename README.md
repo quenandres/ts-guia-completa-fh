@@ -557,3 +557,7 @@ Permite expandir funcionalidades de clases, metodos y propiedades.
 ```ts
 @Controller('Cats')
 ```
+
+## _*93. Decoradores de clases*_
+Se ejecuta en el momento de transpilación del codigo.
+
