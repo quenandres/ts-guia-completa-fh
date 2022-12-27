@@ -601,4 +601,31 @@ De esta manera condionamos el funcionamiento del decorador.
 
 
 ## _*95. Ejemplo de un decorador - Bloquear prototipo*_
+```ts
+const bloquearPrototype = function( constructor: Function ) {
+    Object.seal(constructor)
+    Object.seal(constructor.prototype)
+}
+```
 
+```ts
+@bloquearPrototype
+@printToConsoleConditional( true )
+export class Pokemon {}
+```
+
+
+## _*96. Decoradores de métodos*_
+
+> Factory decorator - se debe ejecutar para que retorne la funcion que tiene dentro
+```ts
+function CheckValidPokemonId() {
+    return function( target: any, propertyKey:string, descriptor: PropertyDescriptor ) {
+        console.log({target, propertyKey, descriptor});        
+    }
+}
+```
+ 
+- target: Objetivo - class, 
+- propertyKey: nombre del metodo o clase, 
+- descriptor: Permite cambiar de escritura o lectura el metodo
