@@ -526,3 +526,9 @@ export { Hero } from './hero';
 export { Villian } from './villian';
 ```
 
+## _*87. Ejemplo aplicado de genéricos*_
+
+
+
+
+
