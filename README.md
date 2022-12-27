@@ -597,6 +597,8 @@ export class Pokemon {
     ) {}
 }
 ```
+De esta manera condionamos el funcionamiento del decorador.
 
 
+## _*95. Ejemplo de un decorador - Bloquear prototipo*_
 
