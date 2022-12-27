@@ -529,6 +529,7 @@ export { Villian } from './villian';
 ## _*87. Ejemplo aplicado de genéricos*_
 
 
+## _*88. Mapear respuestas http*_
+_quicktype.io_
 
-
-
+## _*89. Quicktype.io extensión*_
