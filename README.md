@@ -666,3 +666,16 @@ function readonly( isWritable: boolean = true ): Function {
 }
 ```
 
+
+# _*Seccion 13. Usando librerias que no están escritas en TS como(JQuery)*_
+
+### ¿Qué veremos en esta sección?
+Sabemos muy bien que nuestras aplicaciones web, no serán programadas únicamente con TypeScript puro, por lo cual es importante aprender como utilizar librerías de terceros en nuestros proyectos de TypeScript.
+
+Puntualmente aprenderemos sobre:
+
+- Configuración de un proyecto utilizando el package.json y realizar instalaciones con node.
+- Utilizar archivos de definiciones "*.d.ts" o Typings
+- Agregar definiciones de archivos mediante node
+
+## _*100. Inicio de proyecto - Express API*_
