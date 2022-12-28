@@ -621,7 +621,17 @@ export class Pokemon {}
 ```ts
 function CheckValidPokemonId() {
     return function( target: any, propertyKey:string, descriptor: PropertyDescriptor ) {
-        console.log({target, propertyKey, descriptor});        
+        
+        const originalMethod = descriptor.value;
+
+        descriptor.value = ( id: number ) => {
+            if( id < 1 || id > 800 ) {
+                return console.error('El id del pokemon debe estar entre 1 y 800');
+            } else {
+                return originalMethod(id);
+            }
+        }
+        //descriptor.value = () => console.log('Hola mundo');
     }
 }
 ```
@@ -629,3 +639,30 @@ function CheckValidPokemonId() {
 - target: Objetivo - class, 
 - propertyKey: nombre del metodo o clase, 
 - descriptor: Permite cambiar de escritura o lectura el metodo
+
+
+## _*97. Decoradores de propiedades*_
+Cuando son decoradores de propiedades, no hay descriptor.
+
+```ts
+function readonly( isWritable: boolean = true ): Function {
+    return function( target: any, propertyKey: string ){
+        // PropertyDescriptor
+        const descriptor: PropertyDescriptor = {
+            get() {
+                console.log(this);
+                return 'Fernando';
+            },
+            set(this, val) {
+                Object.defineProperty(this, propertyKey, {
+                    value: val,
+                    writable: !isWritable,
+                    enumerable: false
+                });
+            }
+        }
+        return descriptor;
+    }
+}
+```
+

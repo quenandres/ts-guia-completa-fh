@@ -1,5 +1,5 @@
 function printToConsole( constructor: Function ) {
-    console.log(constructor);    
+    //console.log(constructor);    
 }
 
 const printToConsoleConditional = ( print: boolean = false ):Function => {
@@ -32,16 +32,39 @@ function CheckValidPokemonId() {
     }
 }
 
+function readonly( isWritable: boolean = true ): Function {
+    return function( target: any, propertyKey: string ){
+        // PropertyDescriptor
+        const descriptor: PropertyDescriptor = {
+            get() {
+                console.log(this);
+                return 'Fernando';
+            },
+            set(this, val) {
+                Object.defineProperty(this, propertyKey, {
+                    value: val,
+                    writable: !isWritable,
+                    enumerable: false
+                });
+            }
+        }
+        return descriptor;
+    }
+}
+
 @bloquearPrototype
 @printToConsoleConditional( true )
 export class Pokemon {
+
+    @readonly(false)
     public publicApi: string = 'https://pokeapi.co/';
+
     constructor(
         public name: string
     ) {}
 
     @CheckValidPokemonId()
     savePokemonToDB(id: number){
-        console.log(`Pokemon guardado en la bd ${id}`);
+        //console.log(`Pokemon guardado en la bd ${id}`);
     }
 }
