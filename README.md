@@ -681,3 +681,8 @@ Puntualmente aprenderemos sobre:
 ## _*100. Inicio de proyecto - Express API*_
 
 ## _*101. Creando un Rest API con Express*_
+
+## _*102. Trabajar con TypeScript en lugar de JavaScript*_
+
+> @types
+Archivos de definición de ts en muchas librerias que son usadas.
